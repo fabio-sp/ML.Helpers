@@ -1,5 +1,16 @@
-﻿<h3>ClipboardButton</h3>
+﻿@using ML.Helpers.UI.Services
+@inject IClipboardService ClipboardService
 
-@code {
+<button class="btn btn-primary" @onclick="CopyTextToClipboard">
+    Copia
+</button>
+
+@code 
+{
+    [Parameter] public string Text { get; set; }
     
+    private async Task CopyTextToClipboard()
+    {
+        await ClipboardService.CopyToClipboard(Text);
+    }
 }
