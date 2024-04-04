@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ML.Helpers.UI", "ML.Helpers.UI\ML.Helpers.UI.csproj", "{9C1D2124-B5A0-4A27-80F0-0BEDE77D60ED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C1D2124-B5A0-4A27-80F0-0BEDE77D60ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C1D2124-B5A0-4A27-80F0-0BEDE77D60ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C1D2124-B5A0-4A27-80F0-0BEDE77D60ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C1D2124-B5A0-4A27-80F0-0BEDE77D60ED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
